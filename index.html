@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Breeding and Genetics Lab (PBG)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Plant Breeding and Genetics Lab (PBG)</h1>
+    <p>Professor Jesse Poland</p>
+    <p>Access, view, and download genome assemblies and annotations.</p>
+  </header>
+
+  <section id="search-section">
+    <input type="text" id="search-bar" placeholder="Search by genome ID or species...">
+    <button onclick="searchGenome()">Search</button>
+  </section>
+
+  <section id="genome-list">
+    <h2>Saltgrass Genomes</h2>
+    <div class="genome-item">
+      <p>Genet: W6-48549-006 (Distichlis spicata)</p>
+      <a href="W6-48549-006.html">Download Assembly and Annotation</a>
+    </div>
+    <div class="genome-item">
+      <p>Genet: W6-54757-002 (Distichlis spicata)</p>
+      <a href="W6-54757-002.html">Download Assembly and Annotation</a>
+    </div>
+    <div class="genome-item">
+      <p>Genet: 2021-KS-Q6 (Distichlis spicata)</p>
+      <a href="2021-KS-Q6.html">Download Assembly and Annotation</a>
+    </div>
+    <div class="genome-item">
+      <p>Genet: W6-48045-006 (Distichlis stricta)</p>
+      <a href="W6-48045-006.html">Download Assembly and Annotation</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
